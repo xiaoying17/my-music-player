@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML5 Audio Player</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div id="container">
+		<div id="audio-img">
+			<img class="cover">
+		</div>
+		<div id="audio-player">
+			<div id="audio-info">
+				<span class="artist"></span> - <span class="title"></span>
+			</div>
+			<input id="volume" type="range" min="0" max="10" value="5">
+			<br>
+			<div id="audio-buttons">
+				<button id="prev"></button>
+				<button id="play"></button>
+				<button id="pause"></button>
+				<button id="stop"></button>
+				<button id="next"></button>
+			</div>
+			<div class="clearfix"></div>
+			<div id="tracker">
+				<div id="progressbar">
+					<span id="progress"></span>
+				</div>
+				<span id="duration"></span>
+			</div>
+			<div class="clearfix"></div>
+			<ul id="playList">
+				<li song="Goodbye My Lover.mp3" cover="cover1.jpg" artist="James Blunt">Goodbye My Lover.mp3</li>
+				<li song="Love Is Over.mp3" cover="lijian.jpg" artist="Li Jian">Love Is Over.mp3</li>
+				
+			</ul>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
